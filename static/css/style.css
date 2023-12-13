@@ -1,0 +1,326 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* font: inherit; */
+}
+
+@font-face {
+    font-family: "insta-font";
+    src: url("../font/Satisfy/Satisfy-Regular.ttf");
+}
+
+.all-body {
+    /* background-color: aqua; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    padding: 10px;
+}
+
+.all-body footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 5%;
+    gap: 30px;
+}
+
+.right-login {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.right-login .card {
+    border: gray solid 1px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.right-login form h1 {
+    font-family: "insta-font";
+    margin-left: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+form div .form-control {
+    height: 40px;
+    width: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    border: gray solid 1px;
+}
+
+.btn-primary {
+    background-color: #0095f6;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-login {
+    width: 100%;
+}
+
+.line {
+    margin: 20px;
+    height: 1px;
+    /* color: black; */
+    background-color: grey;
+    width: 100%;
+}
+
+.card p {
+    position: absolute;
+    top: 348px;
+    background-color: white;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left-login img{
+    height: 90%;
+}
+
+.content-google-play {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.content-google-play .buttom {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.buttom a img {
+    height: 50px;
+}
+
+a {
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+nav {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 93%;
+    justify-content: space-between;
+    /* background-color: #0095f6; */
+    position: fixed;
+}
+
+.d-flex {
+    display: flex;
+    height: 100%;
+    /* background-color: #0095f6; */
+}
+
+nav div ul {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* justify-content: space-around; */
+}
+
+.logo {
+    margin: 20px;
+    margin-top: 0px;
+    font-family: "insta-font";
+}
+
+ul li {
+    list-style: none;
+    padding-top: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+li a {
+    font-weight: bold;
+    color: black;
+}
+
+.d-flex main {
+    width: 100%;
+    padding: 20px;
+    /* background-color: #0095f6; */
+}
+
+.home-page {
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.prifle-card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.content-right {
+    position: relative;
+}
+
+.story-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 20px; */
+}
+
+.story-place {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    width: 890px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+
+.story-place::-webkit-scrollbar{
+    display: none;
+}
+
+.post-list {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.post-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* align-items: center; */
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: black solid 1px;
+}
+
+.head-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-card div:nth-child(1){
+    display: flex;
+    gap: 10px;
+}
+
+.post {
+    display: flex;
+    justify-content: center;
+    border: black solid 1px;
+    /* margin-bottom: 20px; */
+}
+
+.caption-post .row:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.caption-post .row:nth-child(3){
+    width: 100%;
+    display: flex;
+    margin: 5px;
+    gap: 20px;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.caption-post .row:nth-child(3) input {
+    width: 90%;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+}
+
+.post img {
+    height: 500px;
+}
+
+.next-story {
+    position: absolute;
+    top: 120px;
+    right: 25%;
+    font-size: 30px;
+}
+
+.before-story {
+    position: absolute;
+    top: 120px;
+    left: 17%;
+    font-size: 30px;
+}
+
+.none-display {
+    display: none;
+}
+
+.img-circle {
+    height: 60px;
+    border-radius: 30px;
+}
+
+
+/* Media Query for Tablets */
+@media only screen and (max-width: 768px) {
+    .left-login img{
+        display: none;
+    }
+
+    .login {
+        gap: 0px;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    form div .form-control{
+        width: 200px;
+    }
+
+    .right-login form h1 {
+        margin-left: 23%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .buttom a img {
+        height: 40px;
+    }
+    
+}
