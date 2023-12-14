@@ -8,19 +8,24 @@
     <link rel="stylesheet" href="../static/fontawesome-free-6.5.1-web/fontawesome-free-6.5.1-web/css/all.css">
 </head>
 <body>
-    <div class="all-body">
+    <div class="all-body dark-mode">
         <div class="d-flex">
             <nav>
                 <div>
                     <div class="logo">
-                        <h1>InstaClone</h1>
+                        <div class="logo-2">
+                            <h1 id="logo2">
+                               CI 
+                            </h1>
+                        </div>
+                        <h1 id="logo">InstaClone</h1>
                     </div>
                     <ul>
                         <li class="nav-item">
                             <i class="fa-solid fa-house"></i>
                             <a href="#">Home</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item" id="search">
                             <i class="fa-solid fa-magnifying-glass"></i>
                             <a href="#">Search</a>
                         </li>
@@ -36,7 +41,7 @@
                             <i class="fa-solid fa-comment-dots"></i>
                             <a href="#">Messages</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item" id="notif">
                             <i class="fa-regular fa-heart"></i>
                             <a href="#">Notifications</a>
                         </li>
@@ -53,16 +58,172 @@
                 <div>
                     <ul>
                         <li class="nav-item">
-                            <i class="fa-solid fa-at"></i>
-                            <a href="#">Threads</a>
-                        </li>
-                        <li class="nav-item">
                             <i class="fa-solid fa-bars"></i>
                             <a href="#">More</a>
                         </li>
                     </ul>
                 </div>
             </nav>
+            <div class="search-place hidden" id="searchplace">
+                <div class="search">
+                    <h1>Search</h1>
+                    <div class="row">
+                        <form action="#">
+                            <input type="text" placeholder="Your Comment...">
+                            <a href="#" type="submit" class="searching">
+                                <i class="fa-solid fa-search"></i>
+                            </a>
+                        </form>
+                    </div>
+                    <div class="row">
+                        <div class="prifle-card">
+                            <img src="../static/img/profile/artworks-fK4mJbrz2tVrzVMf-2K3n3w-t500x500.jpg"
+                                 alt="profile-pic" class="img-circle">
+                            <div>
+                                <h5>Pembawa_Tawa</h5>
+                                <span>
+                                    dhanar rizky krisnadhy
+                                </span>
+                            </div>
+                            <a href="#">Switch</a>
+                        </div>
+                        <h4>Suggested for you 
+                            <a href="#">See All</a>
+                        </h4>
+                        <div class="prifle-card">
+                            <img src="../static/img/profile/artworks-fK4mJbrz2tVrzVMf-2K3n3w-t500x500.jpg"
+                                 alt="profile-pic" class="img-circle">
+                            <div>
+                                <h5>Pembawa_Tawa</h5>
+                                <span>
+                                    dhanar rizky krisnadhy
+                                </span>
+                            </div>
+                            <a href="#">Fllow</a>
+                        </div>
+                        <div class="prifle-card">
+                            <img src="../static/img/profile/artworks-fK4mJbrz2tVrzVMf-2K3n3w-t500x500.jpg"
+                                 alt="profile-pic" class="img-circle">
+                            <div>
+                                <h5>Pembawa_Tawa</h5>
+                                <span>
+                                    dhanar rizky krisnadhy
+                                </span>
+                            </div>
+                            <a href="#">Fllow</a>
+                        </div>
+                        <div class="prifle-card">
+                            <img src="../static/img/profile/artworks-fK4mJbrz2tVrzVMf-2K3n3w-t500x500.jpg"
+                                 alt="profile-pic" class="img-circle">
+                            <div>
+                                <h5>Pembawa_Tawa</h5>
+                                <span>
+                                    dhanar rizky krisnadhy
+                                </span>
+                            </div>
+                            <a href="#">Fllow</a>
+                        </div>
+                        <div class="prifle-card">
+                            <img src="../static/img/profile/artworks-fK4mJbrz2tVrzVMf-2K3n3w-t500x500.jpg"
+                                 alt="profile-pic" class="img-circle">
+                            <div>
+                                <h5>Pembawa_Tawa</h5>
+                                <span>
+                                    dhanar rizky krisnadhy
+                                </span>
+                            </div>
+                            <a href="#">Fllow</a>
+                        </div>
+                        <div class="prifle-card">
+                            <img src="../static/img/profile/artworks-fK4mJbrz2tVrzVMf-2K3n3w-t500x500.jpg"
+                                 alt="profile-pic" class="img-circle">
+                            <div>
+                                <h5>Pembawa_Tawa</h5>
+                                <span>
+                                    dhanar rizky krisnadhy
+                                </span>
+                            </div>
+                            <a href="#">Fllow</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="search-place hidden" id="notifplace">
+                <div class="search">
+                    <h1>Notifications</h1>
+                    <div class="row">
+                        <div class="prifle-card">
+                            <img src="../static/img/profile/artworks-fK4mJbrz2tVrzVMf-2K3n3w-t500x500.jpg"
+                                 alt="profile-pic" class="img-circle">
+                            <div>
+                                <h5>Pembawa_Tawa</h5>
+                                <span>
+                                    dhanar rizky krisnadhy
+                                </span>
+                            </div>
+                            <a href="#">Switch</a>
+                        </div>
+                        <h4>Suggested for you 
+                            <a href="#">See All</a>
+                        </h4>
+                        <div class="prifle-card">
+                            <img src="../static/img/profile/artworks-fK4mJbrz2tVrzVMf-2K3n3w-t500x500.jpg"
+                                 alt="profile-pic" class="img-circle">
+                            <div>
+                                <h5>Pembawa_Tawa</h5>
+                                <span>
+                                    dhanar rizky krisnadhy
+                                </span>
+                            </div>
+                            <a href="#">Fllow</a>
+                        </div>
+                        <div class="prifle-card">
+                            <img src="../static/img/profile/artworks-fK4mJbrz2tVrzVMf-2K3n3w-t500x500.jpg"
+                                 alt="profile-pic" class="img-circle">
+                            <div>
+                                <h5>Pembawa_Tawa</h5>
+                                <span>
+                                    dhanar rizky krisnadhy
+                                </span>
+                            </div>
+                            <a href="#">Fllow</a>
+                        </div>
+                        <div class="prifle-card">
+                            <img src="../static/img/profile/artworks-fK4mJbrz2tVrzVMf-2K3n3w-t500x500.jpg"
+                                 alt="profile-pic" class="img-circle">
+                            <div>
+                                <h5>Pembawa_Tawa</h5>
+                                <span>
+                                    dhanar rizky krisnadhy
+                                </span>
+                            </div>
+                            <a href="#">Fllow</a>
+                        </div>
+                        <div class="prifle-card">
+                            <img src="../static/img/profile/artworks-fK4mJbrz2tVrzVMf-2K3n3w-t500x500.jpg"
+                                 alt="profile-pic" class="img-circle">
+                            <div>
+                                <h5>Pembawa_Tawa</h5>
+                                <span>
+                                    dhanar rizky krisnadhy
+                                </span>
+                            </div>
+                            <a href="#">Fllow</a>
+                        </div>
+                        <div class="prifle-card">
+                            <img src="../static/img/profile/artworks-fK4mJbrz2tVrzVMf-2K3n3w-t500x500.jpg"
+                                 alt="profile-pic" class="img-circle">
+                            <div>
+                                <h5>Pembawa_Tawa</h5>
+                                <span>
+                                    dhanar rizky krisnadhy
+                                </span>
+                            </div>
+                            <a href="#">Fllow</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <main>
                 <!-- <div class="container"> -->
                     <div class="home-page">
@@ -75,17 +236,17 @@
                                 </div>
                                 <div class="story-card">
                                     <img src="../static/img/profile/artworks-fK4mJbrz2tVrzVMf-2K3n3w-t500x500.jpg"
-                                     alt="profile-pic" class="img-circle">
+                                     alt="profile-pic" class="img-circle ">
                                     <p>pembawa_tawa</p>
                                 </div>
                                 <div class="story-card">
                                     <img src="../static/img/profile/artworks-fK4mJbrz2tVrzVMf-2K3n3w-t500x500.jpg"
-                                     alt="profile-pic" class="img-circle">
+                                     alt="profile-pic" class="img-circle ">
                                     <p>pembawa_tawa</p>
                                 </div>
                                 <div class="story-card">
                                     <img src="../static/img/profile/artworks-fK4mJbrz2tVrzVMf-2K3n3w-t500x500.jpg"
-                                     alt="profile-pic" class="img-circle">
+                                     alt="profile-pic" class="img-circle ">
                                     <p>pembawa_tawa</p>
                                 </div>
                                 <div class="story-card">
@@ -129,12 +290,12 @@
                                     <p>pembawa_tawa</p>
                                 </div>
                                 <div class="next-story">
-                                    <a href="#" onclick="NextStoryScroll()">
+                                    <a href="#" id="next-story">
                                         <i class="fa-solid fa-circle-arrow-right"></i>
                                     </a>
                                 </div>
-                                <div class="before-story">
-                                    <a href="#" onclick="BeforeStoryScroll()">
+                                <div class="before-story none-display">
+                                    <a href="#" id="before-story">
                                         <i class="fa-solid fa-circle-arrow-left"></i>
                                     </a>
                                 </div>
